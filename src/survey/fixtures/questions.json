@@ -1,0 +1,164 @@
+[
+    {
+        "model": "survey.question",
+        "pk": 1,
+        "fields": {
+            "category": "ASRS-A",
+            "question_text": "Jak często masz trudności, z dopracowaniem szczegółów jakiegoś zadania, po tym jak już je prawie wykonałeś?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 2,
+        "fields": {
+            "category": "ASRS-A",
+            "question_text": "Jak często masz trudności w planowaniu i organizowaniu skomplikowanych zadań?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 3,
+        "fields": {
+            "category": "ASRS-A",
+            "question_text": "Jak często zapominasz o spotkaniach lub codziennych obowiązkach?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 4,
+        "fields": {
+            "category": "ASRS-A",
+            "question_text": "Jak często unikasz lub odkładasz zadania wymagające długotrwałego wysiłku umysłowego?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 5,
+        "fields": {
+            "category": "ASRS-A",
+            "question_text": "Jak często masz nerwowe ruchy rąk lub stóp gdy musisz siedzieć przez dłuższy czas?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 6,
+        "fields": {
+            "category": "ASRS-A",
+            "question_text": "Jak często zdarza ci się być tak pobudzonym, że czujesz że musisz robić wiele różnych rzeczy, jak byś \"był nakręcony\"?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 7,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często popełniasz błędy wynikające z nieuwagi podczas pracy nad nudnym lub trudnym projektem?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 8,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często masz problem z utrzymaniem uwagi nad zadaniami, które są nudne lub rutynowe?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 9,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często masz problemy z utrzymaniem uwagi na tym, co ludzie mówią, nawet jeśli mówią bezpośrednio do ciebie?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 10,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często gubisz, odkładasz rzeczy w niewłaściwe miejsce lub masz trudności ze znalezieniem ich zarówno w pracy jak i w domu?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 11,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często rozpraszają cię różne aktywności lub dźwięki wokół ciebie?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 12,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często wstajesz z miejsca w sytuacjach wymagających długiego siedzenia, (w pracy , na spotkaniach, wykładach)?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 13,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często masz poczucie \"wewnętrznego niepokoju\"?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 14,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często masz trudności aby rozluźnić się i zrelaksować kiedy masz czas dla siebie?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 15,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często zdarza ci mówić zbyt dużo(być nadmiernie gadatliwym) w sytuacjach społecznych?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 16,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często zdarza ci się, że kiedy rozmawiasz z innymi, łapiesz się na tym, że kończysz za kogoś wypowiedź zanim on sam zdąży to zrobić?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 17,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często podczas rozmowy masz trudność, aby zaczekać na swoją kolej?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "survey.question",
+        "pk": 18,
+        "fields": {
+            "category": "ASRS-B",
+            "question_text": "Jak często zdarza ci się przeszkadzać lub przerywać innym kiedy są zajęci?",
+            "answer_options": [1, 2, 3, 4, 5]
+        }
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "survey.sfvplatform",
+        "pk": 1,
+        "fields": {
+            "name": "TikTok"
+        }
+    },
+    {
+        "model": "survey.sfvplatform",
+        "pk": 2,
+        "fields": {
+            "name": "YouTube Shorts"
+        }
+    },
+    {
+        "model": "survey.sfvplatform",
+        "pk": 3,
+        "fields": {
+            "name": "Instagram Reels"
+        }
+    }
+]

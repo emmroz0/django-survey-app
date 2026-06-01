@@ -1,0 +1,44 @@
+/* Pola tekstowe */
+.form-control {
+    border-width: 2px;
+    border-color: #6c757d;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Radio button — zewnętrzne kółko */
+.form-check-input {
+    border-width: 2px;
+    border-color: #6c757d;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.form-check-input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Checkbox dla platform preferowanych */
+.form-check-input[type="checkbox"] {
+    border-width: 2px;
+    border-color: #6c757d;
+}
+
+/* Przycisk wstecz z obrysem */
+.btn-outline-secondary {
+    border-width: 2px;
+}
+
+/* Input w digit span */
+#answer-input {
+    border-width: 2px;
+    border-color: #6c757d;
+    font-size: 1.5rem;
+}

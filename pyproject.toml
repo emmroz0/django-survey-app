@@ -1,0 +1,13 @@
+[project]
+name = "django-survey-local-dev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crispy-bootstrap5>=2026.3",
+    "django>=6.0.3",
+    "django-crispy-forms>=2.6",
+    "django-stubs>=6.0.4",
+    "django-user-agents>=0.4.0",
+]

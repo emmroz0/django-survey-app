@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Badanie - {{ form.title }}{% endblock %}
+
+{% block content %}
+
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10 col-xl-8">
+                <div class="card bg-light border-0 shadow-sm">
+                    <div class="card-body p-4 p-md-5">
+                        <p class="h1 mb-4">{{ form.title }}</p>
+                        <p class="lead mb-4">{{ form.description }}</p>
+                        <form method="post">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+
+                            <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                                <a href="{{ form.back_url }}" class="btn btn-outline-secondary btn-lg px-5">
+                                    Wstecz
+                                </a>
+                                <button type="submit" class="btn btn-primary btn-lg px-5">
+                                    Następna strona
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

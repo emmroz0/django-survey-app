@@ -1,0 +1,623 @@
+[
+  {
+    "category": "ASRS-A",
+    "question_text": "Jak często masz trudności, z dopracowaniem szczegółów jakiegoś zadania, po tym jak już je prawie wykonałeś?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-A",
+    "question_text": "Jak często masz trudności w planowaniu i organizowaniu skomplikowanych zadań?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-A",
+    "question_text": "Jak często zapominasz o spotkaniach lub codziennych obowiązkach?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-A",
+    "question_text": "Jak często unikasz lub odkładasz zadania wymagające długotrwałego wysiłku umysłowego?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-A",
+    "question_text": "Jak często masz nerwowe ruchy rąk lub stóp gdy musisz siedzieć przez dłuższy czas?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-A",
+    "question_text": "Jak często zdarza ci się być tak pobudzonym, że czujesz że musisz robić wiele różnych rzeczy, jak byś „był nakręcony”?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często popełniasz błędy wynikające z nieuwagi podczas pracy nad nudnym lub trudnym projektem?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często masz problem z utrzymaniem uwagi nad zadaniami, które są nudne lub rutynowe?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często masz problemy z utrzymaniem uwagi na tym, co ludzie mówią, nawet jeśli mówią bezpośrednio do ciebie?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często gubisz, odkładasz rzeczy w niewłaściwe miejsce lub masz trudności ze znalezieniem ich zarówno w pracy jak i w domu?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często rozpraszają cię różne aktywności lub dźwięki wokół ciebie?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często wstajesz z miejsca w sytuacjach wymagających długiego siedzenia, (w pracy , na spotkaniach, wykładach)?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często masz poczucie „wewnętrznego niepokoju”?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często masz trudności aby rozluźnić się i zrelaksować kiedy masz czas dla siebie?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często zdarza ci mówić zbyt dużo(być nadmiernie gadatliwym) w sytuacjach społecznych?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często zdarza ci się, że kiedy rozmawiasz z innymi, łapiesz się na tym, że kończysz za kogoś wypowiedź zanim on sam zdąży to zrobić?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często podczas rozmowy masz trudność, aby zaczekać na swoją kolej?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "ASRS-B",
+    "question_text": "Jak często zdarza ci się przeszkadzać lub przerywać innym kiedy są zajęci?",
+    "answer_choices": [
+      {"value": "0", "label": "Nigdy"},
+      {"value": "1", "label": "Rzadko"},
+      {"value": "2", "label": "Czasami"},
+      {"value": "3", "label": "Często"},
+      {"value": "4", "label": "Bardzo często"}
+    ]
+  },
+  {
+    "category": "MPATS",
+    "question_text": "I can view various short-form mobile phone videos for hours on end and do nothing else.",
+    "answer_choices": [
+      {"value": "0", "label": "Never"},
+      {"value": "1", "label": "Rarely"},
+      {"value": "2", "label": "Occasionally"},
+      {"value": "3", "label": "Often"},
+      {"value": "4", "label": "Always"}
+    ]
+  },
+  {
+    "category": "MPATS",
+    "question_text": "I have no concept of time at all when I view short-form videos on my phone.",
+    "answer_choices": [
+      {"value": "0", "label": "Never"},
+      {"value": "1", "label": "Rarely"},
+      {"value": "2", "label": "Occasionally"},
+      {"value": "3", "label": "Often"},
+      {"value": "4", "label": "Always"}
+    ]
+  },
+  {
+    "category": "MPATS",
+    "question_text": "I feel particularly uninspired and lost when I cannot view short-form videos on my phone.",
+    "answer_choices": [
+      {"value": "0", "label": "Never"},
+      {"value": "1", "label": "Rarely"},
+      {"value": "2", "label": "Occasionally"},
+      {"value": "3", "label": "Often"},
+      {"value": "4", "label": "Always"}
+    ]
+  },
+  {
+    "category": "MPATS",
+    "question_text": "It is hard for me to last long without viewing short-form videos on my phone, even if it is just for a few hours.",
+    "answer_choices": [
+      {"value": "0", "label": "Never"},
+      {"value": "1", "label": "Rarely"},
+      {"value": "2", "label": "Occasionally"},
+      {"value": "3", "label": "Often"},
+      {"value": "4", "label": "Always"}
+    ]
+  },
+  {
+    "category": "MPATS",
+    "question_text": "When I am in a bad mood, I watch short-form videos on my phone.",
+    "answer_choices": [
+      {"value": "0", "label": "Never"},
+      {"value": "1", "label": "Rarely"},
+      {"value": "2", "label": "Occasionally"},
+      {"value": "3", "label": "Often"},
+      {"value": "4", "label": "Always"}
+    ]
+  },
+  {
+    "category": "MPATS",
+    "question_text": "Because I do not want to face annoying things in my life, I divert my attention by watching short-form videos.",
+    "answer_choices": [
+      {"value": "0", "label": "Never"},
+      {"value": "1", "label": "Rarely"},
+      {"value": "2", "label": "Occasionally"},
+      {"value": "3", "label": "Often"},
+      {"value": "4", "label": "Always"}
+    ]
+  },
+  {
+    "category": "MPATS",
+    "question_text": "I spend a lot of time viewing short-form videos on my phone that interfere with my studies and life.",
+    "answer_choices": [
+      {"value": "0", "label": "Never"},
+      {"value": "1", "label": "Rarely"},
+      {"value": "2", "label": "Occasionally"},
+      {"value": "3", "label": "Often"},
+      {"value": "4", "label": "Always"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I think about how I could reduce my work/study time to spend more time on TikTok",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I have TikTok in my mind even when I am not using it",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I feel calm when I use TikTok",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I use TikTok as a getaway from my problems and my thoughts",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I have had difficulties controlling the time I spend on TikTok",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I have had difficulties closing TikTok",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I want to use TikTok more and more",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I feel bad when I cannot use TikTok for some time",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I feel sad when I cannot use TikTok for some time",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I don't get enough time to do things I want to do because I spend a lot of time on TikTok",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I lose sleep due to excessive use of TikTok",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I am not able to concentrate on my work/study due to TikTok use",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I use TikTok so much that it has had a negative impact on my work/study",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I feel depressed when I do not use TikTok, which disappears when I use it",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "TTAS",
+    "question_text": "I feel anxious when I do not use TikTok, which disappears when I use it",
+    "answer_choices": [
+      {"value": "1", "label": "Very rarely"},
+      {"value": "2", "label": "Rarely"},
+      {"value": "3", "label": "Sometimes"},
+      {"value": "4", "label": "Often"},
+      {"value": "5", "label": "Very often"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Potrafię doświadczać pewnych emocji i nie być ich świadomym przez pewien czas.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Psuję lub rozlewam różne rzeczy z powodu nieostrożności, braku uwagi lub myślenia o czymś innym.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Mam trudności w koncentrowaniu się na tym, co dzieje się w teraźniejszości.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Mam tendencje do szybkiego zmierzania do celu bez zwracania uwagi na to, co przytrafia mi się po drodze.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Nie odczuwam napięcia fizycznego lub dyskomfortu aż do momentu aż zawładną moją uwagą.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Zapominam imienia osoby zaraz po tym, jak usłyszę je po raz pierwszy.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Funkcjonuję jak automat, nie uświadamiając sobie tego, co robię.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Pochopnie angażuję się w różne czynności bez zwracania na nie uwagi.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Jestem tak skoncentrowany/a na celu, jaki chcę osiągnąć, że tracę kontakt z tym, co obecnie robię, aby go zdobyć.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Wykonuję zadania i prace automatycznie bez uświadamiania sobie tego, co robię.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Łapię się na tym, że słucham kogoś 'jednym uchem', robiąc coś innego w tym samym czasie.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Jeżdżę w przeróżne miejsca i czasem dziwię się, dlaczego tam się znalazłem/am.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Uważam, że ciągle jestem zajęty/a rozważaniem na temat przyszłości i przeszłości.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Uważam siebie za kogoś, kto robi pewne rzeczy bez zwracania na nie uwagi.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  },
+  {
+    "category": "MAAS",
+    "question_text": "Jem, nie będąc świadomym tego, że jem.",
+    "answer_choices": [
+      {"value": "1", "label": "Prawie zawsze"},
+      {"value": "2", "label": "Bardzo często"},
+      {"value": "3", "label": "Dość często"},
+      {"value": "4", "label": "Rzadko"},
+      {"value": "5", "label": "Bardzo rzadko"},
+      {"value": "6", "label": "Prawie nigdy"}
+    ]
+  }
+]

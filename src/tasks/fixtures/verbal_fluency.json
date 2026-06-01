@@ -1,0 +1,15 @@
+[
+    {"model": "tasks.verbalfluencycategory", "pk": 1, "fields": {"name": "Miasto"}},
+    {"model": "tasks.verbalfluencycategory", "pk": 2, "fields": {"name": "Zwierz\u0119"}},
+    {"model": "tasks.verbalfluencycategory", "pk": 3, "fields": {"name": "Imi\u0119"}},
+    {"model": "tasks.verbalfluencycategory", "pk": 4, "fields": {"name": "Pa\u0144stwo"}},
+    {"model": "tasks.verbalfluencycategory", "pk": 5, "fields": {"name": "Zaw\u00f3d"}},
+    {"model": "tasks.verbalfluencycategory", "pk": 6, "fields": {"name": "Ro\u015blina"}},
+
+    {"model": "tasks.verbalfluencytrial", "pk": 1, "fields": {"letter": "A", "category": 1, "time_limit": 60}},
+    {"model": "tasks.verbalfluencytrial", "pk": 2, "fields": {"letter": "B", "category": 2, "time_limit": 60}},
+    {"model": "tasks.verbalfluencytrial", "pk": 3, "fields": {"letter": "C", "category": 3, "time_limit": 60}},
+    {"model": "tasks.verbalfluencytrial", "pk": 4, "fields": {"letter": "D", "category": 4, "time_limit": 60}},
+    {"model": "tasks.verbalfluencytrial", "pk": 5, "fields": {"letter": "F", "category": 5, "time_limit": 60}},
+    {"model": "tasks.verbalfluencytrial", "pk": 6, "fields": {"letter": "K", "category": 6, "time_limit": 60}}
+]

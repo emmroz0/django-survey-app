@@ -1,0 +1,7 @@
+[
+    {"model": "survey.answeroption", "pk": 1, "fields": {"value": 0, "label": "Nigdy"}},
+    {"model": "survey.answeroption", "pk": 2, "fields": {"value": 1, "label": "Rzadko"}},
+    {"model": "survey.answeroption", "pk": 3, "fields": {"value": 2, "label": "Czasami"}},
+    {"model": "survey.answeroption", "pk": 4, "fields": {"value": 3, "label": "Często"}},
+    {"model": "survey.answeroption", "pk": 5, "fields": {"value": 4, "label": "Bardzo często"}}
+]

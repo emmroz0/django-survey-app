@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Badanie - Strona główna{% endblock %}
+
+{% block content %}
+
+<section class="bg-primary bg-gradient text-white p-4 p-md-5">
+    <div class="container py-1">
+        <div class="col-12">
+            <h1>Analiza zależności pomiędzy korzystaniem z&nbsp;krótkich form wideo a&nbsp;zdolnościami poznawczymi w&nbsp;grupie młodych dorosłych.</h1>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10 col-xl-8">
+                <div class="card bg-light border-0 shadow-sm">
+                    <div class="card-body p-4 p-md-5">
+                        <p class="h3 fw-bold mb-3">Szanowni Państwo</p>
+                        <p class="lead mb-4">
+                            Jestem studentem III roku socjoinformatyki
+                            na&nbsp;Uniwersytecie Kazimierza Wielkiego w&nbsp;Bydgoszczy. Na potrzeby pracy licencjackiej prowadzę badanie
+                            na&nbsp;temat zależności pomiędzy korzystaniem z&nbsp;krótkich form wideo a&nbsp;zdolnościami poznawczymi.
+                        </p>
+                        <p class="lead mb-4">
+                            Niniejsze badanie przeznaczone jest dla osób, które ukończyły <strong>18 lat</strong>. Zajmie ono około <strong>15-20&nbsp;minut</strong>.
+                            Składa się z krótkiej ankiety oraz zestawu zadań mierzących
+                            wybrane zdolności poznawcze, m. in. pamięć roboczą oraz uwagę.
+                        </p>
+                        <p class="lead mb-4">
+                            Ankieta jest <strong>anonimowa</strong>, a&nbsp;jej wyniki będą
+                            wykorzystywane wyłącznie do celów naukowych.
+                        </p>
+                        <p class="lead mb-4">
+                            Z góry dziękuję za poświęcony czas.
+                        </p>
+
+
+                        <div class="d-grid d-sm-block">
+                            <a href="{% url 'begin_survey' %}" class="btn btn-primary btn-lg px-5">
+                                Rozpocznij
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

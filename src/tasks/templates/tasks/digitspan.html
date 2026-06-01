@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Badanie Kognitywne - Zadanie Digit Span{% endblock %}
+
+{% block content %}
+
+<section class="py-5 bg-secondary bg-gradient">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-lg-10 col-xl-8">
+				<div class="card bg-light border-0 shadow-sm">
+					<div class="card-body p-4 p-md-5">
+						<h1 class="mb-4">Test pamięci (Forward Digit Span)</h1>
+						<p class="text-muted mb-4">
+							Zobaczysz ciąg cyfr prezentowany po jednej cyfrze. Twoim zadaniem jest przepisać cyfry
+							w tej samej kolejności.
+						</p>
+
+						<div id="digitspan-app">
+
+							<div id="display-panel" class="border rounded-3 bg-white text-center py-5 mb-3">
+								<div id="digit-display" class="display-1 fw-bold justify-content-center d-flex" aria-live="polite">
+									<div id="digit-card" class="card col-2 col-lg-1 mx-1 bg-dark-subtle">&nbsp;</div>
+								</div>
+
+								<div id="answer-wrap" class="mt-4 d-none">
+									<input type="text" id="answer-input" class="form-control form-control-lg text-center mx-auto" style="max-width: 300px;" inputmode="numeric" autocomplete="off" placeholder="Wpisz cyfry..." disabled>
+								</div>
+							</div>
+
+							<div class="d-grid d-sm-block mb-3" id="start-wrap">
+								<button type="button" id="start-btn" class="btn btn-primary btn-lg px-5">Rozpocznij zadanie</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'tasks/digitspan.js' %}"></script>
+{% endblock %}

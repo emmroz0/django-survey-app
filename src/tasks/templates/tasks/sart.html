@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Badanie Kognitywne - Zadanie SART{% endblock %}
+
+{% block content %}
+
+<section class="py-5 bg-secondary bg-gradient">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-lg-10 col-xl-8">
+				<div class="card bg-light border-0 shadow-sm">
+					<div class="card-body p-4 p-md-5">
+						<h1 class="mb-4">Test uwagi (SART)</h1>
+						<p class="text-muted mb-4">
+							Na ekranie będą pojawiać się cyfry. Twoim zadaniem jest <strong>kliknięcie dużego przycisku</strong>
+							za każdym razem, gdy zobaczysz cyfrę. <strong>Nie klikaj</strong>, gdy pojawi się cyfra <strong>3</strong>.
+						</p>
+
+						<div id="sart-app">
+
+							<div id="display-panel" class="border rounded-3 bg-white text-center py-5 mb-3">
+								<div id="digit-display" class="display-1 fw-bold" style="min-height: 200px; font-size: 5rem; line-height: 200px;">&nbsp;</div>
+							</div>
+
+							<div class="d-grid mb-3">
+								<button type="button" id="response-btn" class="btn btn-primary btn-lg py-4" disabled style="font-size: 2rem;">Kliknij</button>
+							</div>
+
+							<div class="d-grid d-sm-block mb-3" id="start-wrap">
+								<button type="button" id="start-btn" class="btn btn-primary btn-lg px-5">Rozpocznij zadanie</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'tasks/sart.js' %}"></script>
+{% endblock %}

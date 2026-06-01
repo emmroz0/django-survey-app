@@ -1,0 +1,23 @@
+[
+    {
+        "model": "survey.contenttype",
+        "pk": 1,
+        "fields": {
+            "name": "Rozrywka"
+        }
+    },
+    {
+        "model": "survey.contenttype",
+        "pk": 2,
+        "fields": {
+            "name": "Edukacja"
+        }
+    },
+    {
+        "model": "survey.contenttype",
+        "pk": 3,
+        "fields": {
+            "name": "Inne"
+        }
+    }
+]
