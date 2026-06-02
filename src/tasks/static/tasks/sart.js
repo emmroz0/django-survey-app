@@ -12,6 +12,10 @@
     const startBtn = document.getElementById("start-btn");
     const responseBtn = document.getElementById("response-btn");
     const digitDisplay = document.getElementById("digit-display");
+    const resultPanel = document.getElementById("result-panel");
+    const finalCommission = document.getElementById("final-commission");
+    const finalOmission = document.getElementById("final-omission");
+    const finalRt = document.getElementById("final-rt");
 
     let sequence = [];
     let trials = [];
@@ -34,6 +38,8 @@
         const digit = sequence[index];
         digitDisplay.textContent = String(digit);
         responseBtn.disabled = false;
+        responseBtn.classList.remove("btn-success", "btn-danger");
+        responseBtn.classList.add("btn-primary");
         currentTrial = index;
         trialStartTime = performance.now();
         isTrialActive = true;
@@ -62,10 +68,9 @@
 
     function finishTest() {
         responseBtn.disabled = true;
+        responseBtn.classList.add("d-none");
         digitDisplay.textContent = "\u00A0";
-        startBtn.disabled = false;
-        startBtn.textContent = "Zakończono";
-        startBtn.disabled = true;
+        startBtn.classList.add("d-none");
         isRunning = false;
 
         const commissionErrors = trials.filter(function (t) {
@@ -80,6 +85,11 @@
         const meanRt = reactionTimes.length > 0
             ? Math.round(reactionTimes.reduce(function (a, b) { return a + b; }, 0) / reactionTimes.length * 10) / 10
             : null;
+
+        finalCommission.textContent = String(commissionErrors);
+        finalOmission.textContent = String(omissionErrors);
+        finalRt.textContent = meanRt !== null ? String(meanRt) : "-";
+        resultPanel.classList.remove("d-none");
 
         fetch("/tasks/sart/result/", {
             method: "POST",
@@ -100,13 +110,17 @@
         hasResponded = true;
         const digit = sequence[currentTrial];
         const rtMs = Math.round(performance.now() - trialStartTime);
+        const correct = digit !== noGoDigit;
 
         trials.push({
             digit: digit,
             clicked: true,
             rt_ms: rtMs,
-            correct: digit !== noGoDigit,
+            correct: correct,
         });
+
+        responseBtn.classList.remove("btn-primary");
+        responseBtn.classList.add(correct ? "btn-success" : "btn-danger");
     });
 
     startBtn.addEventListener("click", function () {

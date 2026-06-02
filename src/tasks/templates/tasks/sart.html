@@ -31,6 +31,14 @@
 							<div class="d-grid d-sm-block mb-3" id="start-wrap">
 								<button type="button" id="start-btn" class="btn btn-primary btn-lg px-5">Rozpocznij zadanie</button>
 							</div>
+
+							<div id="result-panel" class="text-center d-none">
+								<h3 class="mb-3">Zadanie zakończone</h3>
+								<p class="lead mb-1">Błędy komisji: <strong id="final-commission"></strong></p>
+								<p class="lead mb-1">Błędy pominięcia: <strong id="final-omission"></strong></p>
+								<p class="lead mb-3">Średni czas reakcji: <strong id="final-rt"></strong> ms</p>
+								<a href="{% url 'verbal_fluency' %}" class="btn btn-primary btn-lg mt-3">Przejdź do zadania fluencji werbalnej</a>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -119,7 +119,7 @@ def questionnaire_view(request):
                         defaults={"answer": answer_value},
                     )
             return redirect("digit_span")
-        return JsonResponse({"status": "error", "errors": form.errors}, status=400)
+            return JsonResponse({"status": "error", "errors": form.errors}, status=400)
 
     form = QuestionnaireAnswerForm(questions)
     return render(
@@ -127,3 +127,8 @@ def questionnaire_view(request):
         "survey/survey_base.html",
         {"form": form, "questions": questions},
     )
+
+
+@require_GET
+def thank_you_view(request):
+    return render(request, "survey/thank_you.html")
